@@ -1,0 +1,78 @@
+body{margin: 0;
+background-color: black;}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+h1{
+    margin: 5px;
+    color: white;
+}
+.text-rgb{
+    font-size: 70px;
+}
+.button-main-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    background-color: white;
+}
+.button-play{
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    cursor: pointer;
+}
+.button-play:hover{
+    background-color: cadetblue;
+}
+
+.box-main-div{
+    width: 900px;
+    margin: auto;
+}
+
+.boxs{
+    width: 30%;
+    background: rgb(138, 17, 138);
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 30px;
+}
+
+.answ{
+    color: black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.martivi,.rtuli{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    cursor: pointer;
+}
+.martivi:hover{
+    background-color: cadetblue;
+}
+.rtuli:hover{
+    background-color: cadetblue;
+}
+.hide{
+    display: none;
+}
+.flex{
+    display: inline-block;
+}
